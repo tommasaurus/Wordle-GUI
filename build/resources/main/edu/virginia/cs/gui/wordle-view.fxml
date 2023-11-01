@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="400.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="700.0" prefWidth="400.0">
+         <children>
+            <Text fill="WHITE" layoutX="145.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wordle">
+               <font>
+                  <Font name="Times New Roman" size="37.0" />
+               </font>
+            </Text>
+            <Line endX="400.0" layoutY="70.0" stroke="#ababab" strokeWidth="2.0" />
+
+            <TextField fx:id="text11" layoutX="43.0" layoutY="110.0" onKeyPressed="#onType" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: light  gray;">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </TextField>
+
+            <TextField fx:id="text12" layoutX="109.0" layoutY="110.0" onKeyPressed="#onType" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: light  gray;">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </TextField>
+
+            <TextField fx:id="text13" layoutX="175.0" layoutY="110.0" onKeyPressed="#onType" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: light  gray;">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </TextField>
+
+            <TextField fx:id="text14" layoutX="241.0" layoutY="110.0" onKeyPressed="#onType" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: light  gray;">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </TextField>
+
+            <TextField fx:id="text15" layoutX="307.0" layoutY="110.0" onKeyPressed="#onType" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: light  gray;">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </TextField>
+
+
+            <TextField fx:id="text21" layoutX="43.0" layoutY="176.0" onKeyPressed="#onType" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: light  gray;">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </TextField>
+
+            <TextField fx:id="text22" layoutX="109.0" layoutY="176.0" onKeyPressed="#onType" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: light  gray;">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </TextField>
+
+            <TextField fx:id="text23" layoutX="175.0" layoutY="176.0" onKeyPressed="#onType" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: light  gray;">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </TextField>
+
+            <TextField fx:id="text24" layoutX="241.0" layoutY="176.0" onKeyPressed="#onType" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: light  gray;">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </TextField>
+
+            <TextField fx:id="text25" layoutX="307.0" layoutY="176.0" onKeyPressed="#onType" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: light  gray;">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </TextField>
+
+
+            <TextField fx:id="text31" layoutX="43.0" layoutY="242.0" onKeyPressed="#onType" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: light  gray;">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </TextField>
+
+            <TextField fx:id="text32" layoutX="109.0" layoutY="242.0" onKeyPressed="#onType" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: light  gray;">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </TextField>
+
+            <TextField fx:id="text33" layoutX="175.0" layoutY="242.0" onKeyPressed="#onType" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: light  gray;">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </TextField>
+
+            <TextField fx:id="text34" layoutX="241.0" layoutY="242.0" onKeyPressed="#onType" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: light  gray;">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </TextField>
+
+            <TextField fx:id="text35" layoutX="307.0" layoutY="242.0" onKeyPressed="#onType" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: light  gray;">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </TextField>
+
+
+            <TextField fx:id="text41" layoutX="43.0" layoutY="308.0" onKeyPressed="#onType" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: light  gray;">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </TextField>
+
+            <TextField fx:id="text42" layoutX="109.0" layoutY="308.0" onKeyPressed="#onType" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: light  gray;">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </TextField>
+
+            <TextField fx:id="text43" layoutX="175.0" layoutY="308.0" onKeyPressed="#onType" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: light  gray;">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </TextField>
+
+            <TextField fx:id="text44" layoutX="241.0" layoutY="308.0" onKeyPressed="#onType" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: light  gray;">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </TextField>
+
+            <TextField fx:id="text45" layoutX="307.0" layoutY="308.0" onKeyPressed="#onType" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: light  gray;">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </TextField>
+
+
+            <TextField fx:id="text51" layoutX="43.0" layoutY="374.0" onKeyPressed="#onType" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: light  gray;">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </TextField>
+
+            <TextField fx:id="text52" layoutX="109.0" layoutY="374.0" onKeyPressed="#onType" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: light  gray;">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </TextField>
+
+            <TextField fx:id="text53" layoutX="175.0" layoutY="374.0" onKeyPressed="#onType" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: light  gray;">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </TextField>
+
+            <TextField fx:id="text54" layoutX="241.0" layoutY="374.0" onKeyPressed="#onType" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: light  gray;">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </TextField>
+
+            <TextField fx:id="text55" layoutX="307.0" layoutY="374.0" onKeyPressed="#onType" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: light  gray;">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </TextField>
+
+
+            <TextField fx:id="text61" layoutX="43.0" layoutY="440.0" onKeyPressed="#onType" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: light  gray;">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </TextField>
+
+            <TextField fx:id="text62" layoutX="109.0" layoutY="440.0" onKeyPressed="#onType" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: light  gray;">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </TextField>
+
+            <TextField fx:id="text63" layoutX="175.0" layoutY="440.0" onKeyPressed="#onType" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: light  gray;">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </TextField>
+
+            <TextField fx:id="text64" layoutX="241.0" layoutY="440.0" onKeyPressed="#onType" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: light  gray;">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </TextField>
+
+            <TextField fx:id="text65" layoutX="307.0" layoutY="440.0" onKeyPressed="#onType" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: light  gray;">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="output" editable="false" layoutY="514.0" prefHeight="26.0" prefWidth="400.0" />
+            <TextField fx:id="playAgain" editable="false" layoutX="80.0" layoutY="550.0" prefHeight="26.0" prefWidth="250.0" visible="false" />
+            <Button fx:id="yes" disable="true" layoutX="90.0" layoutY="600.0" mnemonicParsing="false" onMousePressed="#onClickYes" text="Yes" visible="false" />
+            <Button fx:id="no" disable="true" layoutX="280.0" layoutY="600.0" mnemonicParsing="false" onMousePressed="#onClickNo" text="No " visible="false" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
